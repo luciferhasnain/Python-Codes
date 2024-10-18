@@ -6,4 +6,4 @@ import time
 st.balloons()
 
 time.sleep(1)
-st.title("Kesa hy gandu")
+st.title("Kesa hy gandu😂)
