@@ -25,7 +25,7 @@ def kelvin_to_fahrenheit(kelvin):
     return (kelvin - 273.15) * 9/5 + 32
 
 # Streamlit app
-st.title("Hasnain's Temperature Converter")
+st.title("Temperature Converter")
 
 # Select the conversion type
 conversion_type = st.selectbox(
