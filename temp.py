@@ -1,5 +1,13 @@
 import streamlit as st
+import time
 
+# Create a progress bar
+progress_bar = st.progress(0)
+
+# Simulate a loading process with animation
+for percent_complete in range(100):
+    progress_bar.progress(percent_complete + 1)
+    time.sleep(0.05)  # Delay for animation effect
 # Function to convert Celsius to Fahrenheit
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
